@@ -167,5 +167,3 @@ if os.environ.get('LOG') == '1':
     filepath = os.path.join('data','api_test.log')
     with open(filepath, 'a') as file:
         file.write(output4)
-
-
