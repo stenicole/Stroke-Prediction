@@ -10,21 +10,25 @@ api_address = 'fastapi'
 api_port = 8000
 
 payload = {
-        "purchase_value": 15,
-        "age": 53,
-        "hour": 18,
-        "day": 3,
-        "month": 1,
-        "source_Ads": 0,
-        "source_Direct": 0,
-        "source_SEO": 1,
-        "browser_Chrome": 0,
-        "browser_FireFox": 0,
-        "browser_IE": 0,
-        "browser_Opera": 1,
-        "browser_Safari": 0,
-        "sex_F": 0,
-        "sex_M": 1
+        "age": 82,
+        "hypertension": 0,
+        "heart_disease": 1,
+        "ever_married": 1,
+        "Residence_type": 0,
+        "avg_glucose_level": 208.30,
+        "bmi": 32.5,
+        "work_type_Govt_job": 0,
+        "work_type_Never_worked": 0,
+        "work_type_Private": 1,
+        "work_type_Self_employed": 0,
+        "work_type_children": 0,
+        "smoking_status_Unknown": 1,
+        "smoking_status_formerly_smoked": 0,
+        "smoking_status_never_smoked": 0,
+        "smoking_status_smokes": 0,
+        "gender_Female": 0,
+        "gender_Male": 1,
+        "gender_Other": 0
     }
 # attente pour donner le temps au container fastapi de se lancer
 #time.sleep(5)
@@ -41,21 +45,25 @@ request done at "/v1/predict/modele"
 | username="Alice"
 | password="wonderland"
 | features =
-        "purchase_value": 15,
-        "age": 53,
-        "hour": 18,
-        "day": 3,
-        "month": 1,
-        "source_Ads": 0,
-        "source_Direct": 0,
-        "source_SEO": 1,
-        "browser_Chrome": 0,
-        "browser_FireFox": 0,
-        "browser_IE": 0,
-        "browser_Opera": 1,
-        "browser_Safari": 0,
-        "sex_F": 0,
-        "sex_M": 1
+        "age": 82,
+        "hypertension": 0,
+        "heart_disease": 1,
+        "ever_married": 1,
+        "Residence_type": 0,
+        "avg_glucose_level": 208.30,
+        "bmi": 32.5,
+        "work_type_Govt_job": 0,
+        "work_type_Never_worked": 0,
+        "work_type_Private": 1,
+        "work_type_Self_employed": 0,
+        "work_type_children": 0,
+        "smoking_status_Unknown": 1,
+        "smoking_status_formerly_smoked": 0,
+        "smoking_status_never_smoked": 0,
+        "smoking_status_smokes": 0,
+        "gender_Female": 0,
+        "gender_Male": 1,
+        "gender_Other": 0
 
 expected result = 200
 actual restult = {status_code}
@@ -99,21 +107,25 @@ request done at "/v2/predict/modele"
 | username="Alice"
 | password="wonderland"
 | features =
-        "purchase_value": 15,
-        "age": 53,
-        "hour": 18,
-        "day": 3,
-        "month": 1,
-        "source_Ads": 0,
-        "source_Direct": 0,
-        "source_SEO": 1,
-        "browser_Chrome": 0,
-        "browser_FireFox": 0,
-        "browser_IE": 0,
-        "browser_Opera": 1,
-        "browser_Safari": 0,
-        "sex_F": 0,
-        "sex_M": 1
+        "age": 82,
+        "hypertension": 0,
+        "heart_disease": 1,
+        "ever_married": 1,
+        "Residence_type": 0,
+        "avg_glucose_level": 208.30,
+        "bmi": 32.5,
+        "work_type_Govt_job": 0,
+        "work_type_Never_worked": 0,
+        "work_type_Private": 1,
+        "work_type_Self_employed": 0,
+        "work_type_children": 0,
+        "smoking_status_Unknown": 1,
+        "smoking_status_formerly_smoked": 0,
+        "smoking_status_never_smoked": 0,
+        "smoking_status_smokes": 0,
+        "gender_Female": 0,
+        "gender_Male": 1,
+        "gender_Other": 0
 
 expected result = 200
 actual restult = {status_code}
